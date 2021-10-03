@@ -1,0 +1,21 @@
+.mountainCardSection {
+  padding:0 $PXL;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.cardContainer {
+  padding: $PS;
+  background-color: $cardBg;
+  border-radius: $BRS;
+
+  img {
+    width: 100%;
+  }
+}
+
+.titleContainer > p {
+  font-size: 100px;
+  padding: 0 $PXL;
+}

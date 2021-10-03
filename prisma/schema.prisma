@@ -1,0 +1,24 @@
+// schema.prisma
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Mountain {
+  @@map(name: "mountain")
+  id Int @default(autoincrement()) @id
+  name String
+  thumbnail_photo String
+  height Int
+  summits Int
+  deaths Int
+  death_rate Int
+  createdAt  DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+

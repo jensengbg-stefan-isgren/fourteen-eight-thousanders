@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: center;
+  div {
+    width: 60%;
+    height: auto;
+    padding-top: $PL;
+  }
+}
