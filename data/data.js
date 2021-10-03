@@ -9,7 +9,7 @@ export default [
   },
   {
     name: "K2",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://i.pinimg.com/originals/c9/3c/59/c93c593754ac498a7f57962dd8d9db2f.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -17,7 +17,7 @@ export default [
   },
   {
     name: "Kangchenjunga",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://globeinfinite.com/wp-content/uploads/2021/05/Kangchenjunga-India.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -25,7 +25,7 @@ export default [
   },
   {
     name: "Lhotse",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://uphillathlete.com/wp-content/uploads/2019/07/4-e1563048386580.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -33,7 +33,7 @@ export default [
   },
   {
     name: "Makalu",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://upload.wikimedia.org/wikipedia/commons/3/3d/Makalu_CU.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -41,7 +41,7 @@ export default [
   },
   {
     name: "Cho Oyu",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://wondersoftibet.com/wp-content/uploads/2018/09/Cho-Oyu-the-6th-highest-mountain-in-the-world.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -49,7 +49,7 @@ export default [
   },
   {
     name: "Dhaulagiri I",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Dhaulagiri_mountain.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -57,7 +57,7 @@ export default [
   },
   {
     name: "Manaslu",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://www.adventureconsultants.com/assets/Uploads/Himalaya/Nepal-Himalaya/Manaslu/Manaslu-from-BC-GC.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -65,7 +65,7 @@ export default [
   },
   {
     name: "Nanga Parbat",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Fairy_Meadows_and_the_view_of_Nanga_Parbat.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -73,7 +73,7 @@ export default [
   },
   {
     name: "AnnaPurna I",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'http://himalayaguides.com/wp-content/uploads/2017/04/2.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -81,7 +81,7 @@ export default [
   },
   {
     name: "Gashergrum I",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://www.furtenbachadventures.com/wp-content/uploads/fa_gasherbrum1_5.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -89,7 +89,7 @@ export default [
   },
   {
     name: "Broad Peak",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Broad_Peak.JPG',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -97,7 +97,7 @@ export default [
   },
   {
     name: "Gasherbrum II",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://www.alpinesherpaguide.com/wp-content/uploads/2017/09/Gasherbrum2.jpg',
     height: 123,
     summits: 123,
     deaths: 123,
@@ -105,7 +105,7 @@ export default [
   },
   {
     name: "Shishapangma",
-    thumbnail_photo: 'https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg',
+    thumbnail_photo: 'https://adventurethamserku.com/wp-content/uploads/2018/10/MT.-SHISHA-PANGMA-EXPEDITION2.jpg',
     height: 123,
     summits: 123,
     deaths: 123,

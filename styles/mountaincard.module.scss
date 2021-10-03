@@ -1,21 +1,142 @@
 .mountainCardSection {
-  padding:0 $PXL;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding:$PXL;
+}
+
+.collapse {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  button {
+    width: 100%;
+    display: block;
+  }
+}
+
+.mountainCardContainer {
+  width: 100%;
+
 }
 
 .cardContainer {
   padding: $PS;
-  background-color: $cardBg;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
   border-radius: $BRS;
+  background-color: white;
 
-  img {
-    width: 100%;
+  .contentContainer {
+    width:50%;
+  }
+
+  .imageContainer {
+    width:100%;
+
+    img {
+      width:50%;
+    }
   }
 }
 
-.titleContainer > p {
-  font-size: 100px;
-  padding: 0 $PXL;
+.collapse .content {
+}
+
+.collapse .contentParent {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
+
+.carousel  {
+ 
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom 100px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imageContainer {
+  width:100%;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom 100px;
+  display: flex;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  h3 {
+    padding-top: $PXL;
+    color: white;
+    font-size: 7rem;
+  }
+  p {
+    color:white;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+}
+.carouselContainer {
+  padding: $PXL $PL;
+  color: white;
+
+  h3{
+    font-size: 7rem;
+  }
+
+  .carouselContainer {
+    height: 500px;
+   
+    background-color: pink;
+  }
+.contentContainer {
+  height: 500px;
+  background-color: $bgcolor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+}
+.test {
+  background-color: pink;
+  height: 300px;
+}
+
+.nojjan {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.carouselContainer > h2 {
+  color: black;
+  margin-bottom: $MS;
+  font-size: 2rem;
 }

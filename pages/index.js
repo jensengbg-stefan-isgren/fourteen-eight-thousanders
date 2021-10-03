@@ -2,6 +2,8 @@ import prisma from "../lib/prisma";
 import Header from "@/components/HeaderSection";
 import MountainCardSection from "@/components/MountainCardSection";
 import data from "../data/data";
+import MountainCarousel from "@/components/MountainCarousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Home = ({ mountains }) => {
   const saveMountains = async (data) => {
@@ -16,7 +18,8 @@ const Home = ({ mountains }) => {
   return (
     <div>
       <Header />
-      <button onClick={() => saveMountains(data)}>Add</button>
+      {/* <button onClick={() => saveMountains(data)}>Add</button> */}
+      <MountainCarousel mountains={mountains}/>
       <MountainCardSection mountains={mountains} />
     </div>
   );

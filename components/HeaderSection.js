@@ -4,8 +4,10 @@ import style from "@/styles/header.module.scss";
 
 const HeaderSection = () => {
   return (
-    <header className={style.header}>
+    <header className={`${style.header} ${"darkSection"}`}>
       <Image src={Logo} layout="responsive"/>
+      <h1>ENTER THE WORLD OF THE GIANTS</h1>
+      <h2>WE PROVIDE YOU WITH THE INFO YOU NEED</h2>
     </header>
   );
 };

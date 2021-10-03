@@ -4,10 +4,13 @@ const MountainCard = ({mountain}) => {
   return (
     <article className={style.cardContainer}>
       <div className={style.imageContainer}>
-        <img src={mountain.thumbnail_photo} alt="" />
+      <img src={mountain.thumbnail_photo} alt="" />
       </div>
-      <p>{mountain.name}</p>
-      <p>{mountain.height}</p>
+      <div className={style.contentContainer}>
+     
+       
+      </div>
+     
     </article>
   )
 }
