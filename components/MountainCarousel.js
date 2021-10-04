@@ -1,6 +1,6 @@
-import MountainCarouselCard from "@/components/MountainCarouselCard";
-import style from "@/styles/mountaincard.module.scss";
 import { Carousel } from "react-responsive-carousel";
+import style from "@/styles/mountaincard.module.scss";
+import MountainCarouselCard from "@/components/MountainCarouselCard";
 
 const MountainCarousel = ({ mountains }) => {
   return (

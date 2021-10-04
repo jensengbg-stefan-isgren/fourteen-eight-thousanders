@@ -3,7 +3,7 @@
   margin: auto;
   display: flex;
   justify-content: center;
-  padding:$PXL;
+  padding: $PXL;
 }
 
 .collapse {
@@ -20,7 +20,6 @@
 
 .mountainCardContainer {
   width: 100%;
-
 }
 
 .cardContainer {
@@ -32,14 +31,14 @@
   background-color: white;
 
   .contentContainer {
-    width:50%;
+    width: 50%;
   }
 
   .imageContainer {
-    width:100%;
+    width: 100%;
 
     img {
-      width:50%;
+      width: 50%;
     }
   }
 }
@@ -53,8 +52,7 @@
   transition: height ease 0.3s;
 }
 
-.carousel  {
- 
+.carousel {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,11 +61,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .imageContainer {
-  width:100%;
+  width: 100%;
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -94,7 +91,7 @@
     font-size: 7rem;
   }
   p {
-    color:white;
+    color: white;
     font-size: 4rem;
     font-weight: 700;
   }
@@ -103,27 +100,27 @@
   padding: $PXL $PL;
   color: white;
 
-  h3{
-    font-size: 7rem;
+  h3 {
+    font-size: 4rem;
   }
 
   .carouselContainer {
     height: 500px;
-   
+
     background-color: pink;
   }
-.contentContainer {
-  height: 500px;
-  background-color: $bgcolor;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  .contentContainer {
+    height: 500px;
+    background-color: $bgcolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  p {
-    font-size: 3rem;
-    font-weight: 700;
+    p {
+      font-size: 3rem;
+      font-weight: 700;
+    }
   }
-}
 }
 .test {
   background-color: pink;
@@ -132,11 +129,43 @@
 
 .nojjan {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .carouselContainer > h2 {
   color: black;
   margin-bottom: $MS;
   font-size: 2rem;
+}
+
+.cardC:nth-child(odd) {
+  margin-bottom: 1rem;
+  height: 300px;
+  display: flex;
+  width: 100%;
+}
+
+.cardC:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 1rem;
+  height: 300px;
+  display: flex;
+  width: 100%;
+}
+
+.imageC {
+  width: 50%;
+  background: pink;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+.contentC {
+  width: 50%;
+  background-color: white;
 }

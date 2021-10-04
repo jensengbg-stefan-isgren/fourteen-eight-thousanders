@@ -1,5 +1,3 @@
-
-
 const MountainCarouselCard = ({mountain}) => {
   return (
     <div>
