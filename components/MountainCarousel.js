@@ -15,7 +15,7 @@ const MountainCarousel = ({ mountains }) => {
         showArrows={true}
       >
         {mountains.map((mountain) => (
-          <div className={style.nojjan}>
+          <div key={mountain.id} className={style.nojjan}>
             <div
               className={`${style.imageContainer} ${style.carouselContainer}`}
               style={{
