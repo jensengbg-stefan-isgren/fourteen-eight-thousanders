@@ -5,7 +5,6 @@ import MountainCarouselCard from "@/components/MountainCarouselCard";
 const MountainCarousel = ({ mountains }) => {
   return (
     <div className={style.carouselContainer}>
-      <h2>OVERVIEW OF ALL THE BEAUTIFUL MOUNTAINS</h2>
       <Carousel
         showIndicators={true}
         infiniteLoop={true}
@@ -15,20 +14,19 @@ const MountainCarousel = ({ mountains }) => {
         showArrows={true}
       >
         {mountains.map((mountain) => (
-          <div key={mountain.id} className={style.nojjan}>
+         
             <div
-              className={`${style.imageContainer} ${style.carouselContainer}`}
+              className={`${style.imageContainer}`}
               style={{
                 backgroundImage: `url(${mountain.thumbnail_photo})`,
               }}
             >
-              <div className={style.overlay}></div>
+              <div className={style.overlay}>
+                <h3>{mountain.name}</h3>
+              </div>
             </div>
-            <div className={style.contentContainer}>
-              <h3>{mountain.name}</h3>
-              <p>{` [ ${mountain.height}m ]`}</p>
-            </div>
-          </div>
+          
+     
         ))}
       </Carousel>
     </div>

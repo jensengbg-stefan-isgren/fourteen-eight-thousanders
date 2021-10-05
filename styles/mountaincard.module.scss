@@ -65,7 +65,7 @@
 
 .imageContainer {
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom 100px;
@@ -78,7 +78,7 @@
   left: 0;
   z-index: 1;
   height: 100%;
-  width: 50%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: flex-start;
@@ -97,7 +97,7 @@
   }
 }
 .carouselContainer {
-  padding: $PXL $PL;
+  height: 100vh;
   color: white;
 
   h3 {
@@ -128,8 +128,8 @@
 }
 
 .nojjan {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 100vh;
 }
 
 .carouselContainer > h2 {
@@ -155,8 +155,9 @@
 }
 
 .imageC {
-  width: 50%;
-  background: pink;
+  width: 100%;
+  height: 100vh;
+
   img {
     width: 100%;
     height: 100%;
