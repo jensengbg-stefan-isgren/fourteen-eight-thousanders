@@ -6,7 +6,7 @@ const MountainCard = ({ mountain }) => {
   const { name, height, summits, deaths, death_rate } = mountain;
 
   return (
-    <Link href={`/${name}`}>
+    <Link href={`/${name}` }>
       <article className={style.cardC}>
         <div className={style.imageC}>
           <img src={mountain.thumbnail_photo} alt="" />

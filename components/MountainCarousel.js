@@ -15,7 +15,7 @@ const MountainCarousel = ({ mountains }) => {
       >
         {mountains.map((mountain) => (
          
-            <div
+            <div key={mountain.id}
               className={`${style.imageContainer}`}
               style={{
                 backgroundImage: `url(${mountain.thumbnail_photo})`,
